@@ -1,0 +1,119 @@
+.container-home {
+    height: 100vh;
+    padding-top: 11vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    background-color: #F7F6F6;
+    overflow: hidden;
+}
+
+#carouselExampleFade {
+    width: 62vw;
+    z-index: 0;
+}
+
+
+.carousel-item img {
+    max-height: 100%;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+.carousel-caption {
+    text-align: left !important; /* Center-align text */
+}
+
+.carousel-caption p {
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-left: -8vw;
+    margin-bottom: -8vh;
+}
+
+.mobile-logo img {
+    width: 15vw;
+}
+
+@media (max-width: 1300px) {
+    #carouselExampleFade {
+        width: 70vw;
+        padding-top: 0vh;
+    }
+}
+
+@media (max-width: 1025px) {
+    #carouselExampleFade {
+        width: 90vw;
+        padding-top: 0vh;
+    }
+
+    .mobile-logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mobile-logo img {
+        margin-top: 1vh;
+        width: 30vw;
+    }
+}   
+
+@media (max-width: 992px) {
+    #carouselExampleFade {
+        width: 80vw;
+        padding-top: 6vh;
+    }
+}
+
+@media(max-width: 768px) {
+    #carouselExampleFade {
+        width: 90vw;
+        padding-top: 0vh;
+    }
+
+    .mobile-logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mobile-logo img {
+        margin-top: 2vh;
+        width: 32vw;
+    }
+    
+    .mobile-logo p {
+        margin-top: 2vh;
+       
+    }
+
+
+}
+
+@media(min-width: 1025px) {
+    .mobile-logo {
+        display: none;
+    }
+}
+
+@media(max-width: 430px) {
+    #carouselExampleFade {
+        width: 140vw;
+    }
+
+    .carousel-control-next, .carousel-control-prev {
+        width: 44% !important;
+    }
+
+}
+
+@media (min-width: 431px) {
+    .container-home .black-button {
+        display: none;
+    }
+}
+

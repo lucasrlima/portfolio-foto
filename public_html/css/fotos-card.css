@@ -1,0 +1,91 @@
+.fotos-card {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+
+    background-size: cover;
+    min-width: 50vh;
+    height: 28vh;
+    transition: filter 0.3s;
+    filter: grayscale(95%);
+}
+
+.reportage {
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/reportage/TOURO.jpg");
+}
+
+.portraits {
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/portrait/charlotte.jpeg");
+}
+
+.rio2016 {
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/rio2016/panning.jpeg");
+}
+
+.politicians {
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/politicos/serra.jpg");
+}
+
+.athlete {
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/story/esquiva_cor.jpg");
+}
+
+.fragments {
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/reportage/fragmento6.jpeg");
+}
+
+.consolacao {
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/consolacao/consolacao-19.jpg");
+}
+
+.corp-portraits {
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/corp/mars-1.jpg");
+}
+.concerts {
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/shows/mick.jpg");
+}
+
+
+.fotos-card:hover {
+    filter: grayscale(10%); /* Apply the grayscale filter on hover */
+}
+
+.fotos-card a{
+    text-decoration: none;
+}
+
+.fotos-card-text {
+    display: flex;
+    justify-content: center;
+}
+
+.fotos-card-text h2{
+    color: whitesmoke;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 1.3rem;
+    
+}
+
+
+@media(max-width: 1090px) {
+    
+    .fotos-card {
+        min-width: 42vw;
+        height: 40vw;
+    }
+}
+
+@media(max-width: 768px) {
+   
+    .fotos-card {
+        width: 30vw;
+        height: 20vh; 
+    }
+
+    .fotos-card-text h2{
+        font-size: 0.8rem;
+        
+    }
+}
+
