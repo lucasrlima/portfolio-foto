@@ -9,10 +9,10 @@
 }
 
 .about-text-container {
-    height: 70vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     min-width: 345px;
 }

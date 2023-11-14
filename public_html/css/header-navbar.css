@@ -85,3 +85,10 @@
     }
 }
 
+@media(max-width: 286px) {
+    .header-navbar img{
+        display: none;
+        
+    }
+}
+
