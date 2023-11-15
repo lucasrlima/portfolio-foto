@@ -33,6 +33,13 @@
     <meta property="og:image" content="https://lucasrlima.me/images/about.jpg">
     <meta property="og:url" content="https://www.lucasrlima.com">
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+      body {
+        display: none; /* Hide the body by default */
+      }
+    </style> 
+
 
 </head>
 <body>
@@ -184,6 +191,27 @@
     <script src="js/lightbox-plus-jquery.js"></script>
     
     <script src="js/lock-scroll.js"></script>
+
+    <script>
+        $(document).ready(function() {
+          // Fade in the body when the document is ready
+          $("body").fadeIn();
+    
+          // Click event to navigate to a random page with a fade-out effect
+          $("container-home").on("click", function() {
+            var randomPage = getRandomPage(["about.html", "athlete.html", "concerts.html", "contact.html", "consolacao.html", "index.html", "fotos-index.html", "fragments.html", "politicos.html", "portraits.html", "rio2016.html", "touradas.html"]);
+            $("body").fadeOut(function() {
+              window.location.href = randomPage;
+            });
+          });
+    
+          // Function to get a random page from an array
+          function getRandomPage(pages) {
+            var randomIndex = Math.floor(Math.random() * pages.length);
+            return pages[randomIndex];
+          }
+        });
+      </script>
 
 </body>
 </html>
