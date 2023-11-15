@@ -15,11 +15,11 @@
 }
 
 .portraits {
-    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/portrait/charlotte.jpeg");
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/portrait/charlotte.jpg");
 }
 
 .rio2016 {
-    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/rio2016/panning.jpeg");
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/rio2016/panning.jpg");
 }
 
 .politicians {
@@ -31,7 +31,7 @@
 }
 
 .fragments {
-    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/reportage/fragmento6.jpeg");
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/reportage/fragmento6.jpg");
 }
 
 .consolacao {
