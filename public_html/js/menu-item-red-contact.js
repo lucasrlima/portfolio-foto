@@ -2,7 +2,7 @@
     const currentURL = window.location.href;
     
     // Check if the URL contains "about.html"
-    if (currentURL.includes("contact.html")) {
+    if (currentURL.includes("contact")) {
         // Add the "active" class to the "about" link
         document.getElementById("contact-link").classList.add("active");
     }
