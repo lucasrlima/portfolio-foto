@@ -27,10 +27,13 @@
 }
 
 .carousel-caption p {
+    font-family: Poppins;
     width: fit-content;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.778);
     margin-left: -8vw;
     margin-bottom: -8vh;
+    padding: 0 0.5vw 0 0.5vw;
+    border-radius: 4px;
 }
 
 .mobile-logo img {
