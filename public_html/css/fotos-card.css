@@ -7,7 +7,7 @@
     min-width: 50vh;
     height: 28vh;
     transition: filter 0.3s;
-    filter: grayscale(95%);
+    filter: grayscale(99%);
 }
 
 .reportage {
@@ -15,23 +15,23 @@
 }
 
 .portraits {
-    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/portrait/charlotte.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/portrait/GAL.jpg");
 }
 
 .rio2016 {
-    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/rio2016/panning.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/rio2016/phelps.jpg");
 }
 
 .politicians {
-    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/politicos/serra.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/politicos/Lula-h.jpg");
 }
 
 .athlete {
-    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/story/esquiva_cor.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/story/zaneti_cor.jpg");
 }
 
 .fragments {
-    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/reportage/fragmento6.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/reportage/fragmento14.jpg");
 }
 
 .consolacao {
@@ -39,15 +39,15 @@
 }
 
 .corp-portraits {
-    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/corp/mars-1.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/corp/leandro.jpg");
 }
 .concerts {
-    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/shows/mick.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/shows/iggy.jpg");
 }
 
 
 .fotos-card:hover {
-    filter: grayscale(10%); /* Apply the grayscale filter on hover */
+    filter: grayscale(16%); /* Apply the grayscale filter on hover */
 }
 
 .fotos-card a{
@@ -62,9 +62,11 @@
 .fotos-card-text h2{
     color: whitesmoke;
     font-family: Poppins;
-    font-weight: 600;
-    font-size: 1.3rem;
-    
+    font-weight: 200;
+    font-size: 1rem;
+    background-color: rgba(0, 0, 0, 0.778);
+    padding: 0 1vw 0 1vw;
+    border-radius: 4px;
 }
 
 
