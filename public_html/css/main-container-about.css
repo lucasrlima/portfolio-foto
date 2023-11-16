@@ -28,6 +28,25 @@
     margin-left: 20px;
 }
 
+#text h1 {
+    color: #575757;
+    border-bottom: 1px solid;
+    padding-bottom: 2vh;
+}
+
+#text p {
+    color: #575757;
+}
+
+#text a {
+    color: #000000;
+}
+
+#text a:hover {
+    cursor: pointer;
+    color: #575757;
+}
+
 @media(max-width: 1098px) {
     .main-container-about {
       grid-template-columns: 1fr;
@@ -44,8 +63,7 @@
         align-items: center;
         margin-left: 8vw;
         margin-right: 6vw;
-        margin-bottom: 4vh;
-        
+        margin-bottom: 4vh;   
     }
 
     #about-photo img {
