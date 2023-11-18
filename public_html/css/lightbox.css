@@ -165,7 +165,7 @@ body.lb-disable-scrolling {
 
 .lb-data .lb-caption {
   font-size: 13px;
-  font-weight: bold;
+  font-weight: 200;
   line-height: 1em;
   font-family: 'Poppins';
 }
@@ -178,7 +178,7 @@ body.lb-disable-scrolling {
   display: block;
   clear: left;
   padding-bottom: 1em;
-  font-size: 12px;
+  font-size: 0px;
   color: #999999;
   font-family: 'Poppins';
 }
