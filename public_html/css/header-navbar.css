@@ -62,15 +62,26 @@
     color: #D12429;
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 768px) {
     .navbar-logo {
         display: none;
     }
     .header-navbar a{
-        font-size: 1em;
+        font-size: 0.9em;
+    }
+
+    .header-navbar  {
+        height: 9.4vh;
     }
 }
 
+
+
+@media (min-width: 768px) {
+    .navbar-logo-mob {
+        display: none;
+    }
+}
 
 @media(max-width: 500px) {
 

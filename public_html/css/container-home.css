@@ -14,7 +14,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: #F7F6F6;
     width: 100vw;
-    padding: 12vh 21vw 10vh 21vw;
+    padding: 11vh 21vw 10vh 21vw;
     margin: auto;
 }
 
@@ -23,87 +23,35 @@
 }
 
 
-#carouselExampleFade {
-    width: 62vw;
-    z-index: 0;
-}
-
-
-.carousel-item img {
-    max-height: 100%;
-    max-width: 100%;
-    height: auto;
-    width: auto;
-}
-
-.carousel-caption {
-    text-align: left !important; /* Center-align text */
-}
-
-.carousel-caption p {
-    font-family: Poppins;
-    width: fit-content;
-    background-color: rgba(0, 0, 0, 0.778);
-    color: #ffffff;
-    margin-left: -8vw;
-    margin-bottom: -8vh;
-    padding: 0 0.5vw 0 0.5vw;
-    border-radius: 4px;
-}
-
-.mobile-logo img {
-    width: 15vw;
-}
-
-@media (max-width: 1300px) {
-    #carouselExampleFade {
-        width: 70vw;
-        padding-top: 0vh;
-    }
-}
 
 @media (max-width: 1025px) {
-    #carouselExampleFade {
-        width: 90vw;
-        padding-top: 0vh;
+   
+    .galeria-index {
+        grid-template-columns: 1fr 1fr;
+        padding: 12vh 21vw 10vh 16vw;
     }
 
-    .mobile-logo {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .gallery-column-index {  
+        width: 36vw;
+        padding-right: 2vw;
     }
 
-    .mobile-logo img {
-        margin-top: 1vh;
-        margin-bottom: 1vh;
-        width: 20vw;
+    .gallery-column-index .gallery-photo img{
+        padding-bottom: 2vh;
     }
 
-    .home-anchor {
-        text-decoration: none;
-        color: rgb(37, 37, 37);
-    }
 }   
 
-@media (max-width: 992px) {
 
-    .galeria-index {
-        
-        grid-template-columns: 1fr 1fr;
-      
-    }
-
-    #carouselExampleFade {
-        width: 80vw;
-        padding-top: 6vh;
-    }
-}
 
 @media(max-width: 768px) {
-    #carouselExampleFade {
-        width: 78vw;
-        padding-top: 0vh;
+
+    .galeria-index {
+        padding-top: 10vh;
+    }
+    
+    .gallery-column-index .gallery-photo img{
+        padding-bottom: 1.4vh;
     }
 
     .mobile-logo {
@@ -131,26 +79,4 @@
 
 }
 
-@media(min-width: 1025px) {
-    .mobile-logo {
-        display: none;
-    }
-}
-
-@media(max-width: 430px) {
-    #carouselExampleFade {
-        width: 110vw;
-    }
-
-    .carousel-control-next, .carousel-control-prev {
-        width: 44% !important;
-    }
-
-}
-
-@media (min-width: 431px) {
-    .container-home .black-button {
-        display: none;
-    }
-}
 
