@@ -9,6 +9,20 @@
     overflow: hidden;
 }
 
+.galeria-index {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #F7F6F6;
+    width: 100vw;
+    padding: 12vh 21vw 10vh 21vw;
+    margin: auto;
+}
+
+.gallery-column-index {  
+    width: 14vw;
+}
+
+
 #carouselExampleFade {
     width: 62vw;
     z-index: 0;
@@ -73,6 +87,13 @@
 }   
 
 @media (max-width: 992px) {
+
+    .galeria-index {
+        
+        grid-template-columns: 1fr 1fr;
+      
+    }
+
     #carouselExampleFade {
         width: 80vw;
         padding-top: 6vh;
