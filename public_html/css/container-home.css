@@ -1,7 +1,7 @@
 .container-home {
     height: 100vh;
     height: fit-content;
-    padding-top: 11vh;
+    padding-top: 12vh;
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -20,7 +20,7 @@
     overflow: hidden;
 }
 
-.gallery-photo {
+.galeria-index .gallery-photo {
     padding-left: 0.8vw;
     padding-bottom: 0.5vh;
     width: 16vw;
@@ -39,7 +39,7 @@
     }
 
 
-    .gallery-photo img{
+    .galeria-index .gallery-photo img{
         width: 44vw;
         padding-left: 2vw;
         padding-bottom: 1vh;
