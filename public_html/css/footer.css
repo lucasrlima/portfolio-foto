@@ -27,6 +27,24 @@
     padding: 0px 20px 0px 10px; 
 }
 
+.footer .copyright-container {
+    width: fit-content;
+    position: absolute;
+    left: 8vw;
+    top: 14px;
+}
+
+.footer .copyright-container p{
+    font-size: 0.65em;
+    color: #9c9c9c;
+}
+
 .footer a:hover {
     color: black;
+}
+
+@media(max-width: 330px) {
+    .footer .copyright-container p{
+        display: none;
+    }
 }
