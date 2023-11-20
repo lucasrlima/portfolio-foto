@@ -54,29 +54,6 @@
         padding-bottom: 1.4vh;
     }
 
-    .mobile-logo {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .mobile-logo img {
-        margin-top: 2vh;
-        
-        width: 22vw;
-    }
-    
-    .mobile-logo p {
-        margin-top: 2vh;
-       
-    }
-
-    .home-anchor {
-        text-decoration: none;
-        color: rgb(37, 37, 37);
-    }
-
-
 }
 
 
