@@ -86,7 +86,7 @@
 
 @media (max-width: 672px) {
     .header-navbar img {
-        left: 4vw;
+        left: 2vw;
     }
 }
 
@@ -124,7 +124,7 @@
     }
 }
 
-@media(max-width: 305px) {
+@media(max-width: 324px) {
     .header-navbar img{
         display: none;
         

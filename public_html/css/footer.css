@@ -43,7 +43,7 @@
     color: black;
 }
 
-@media(max-width: 330px) {
+@media(max-width: 390px) {
     .footer .copyright-container p{
         display: none;
     }
