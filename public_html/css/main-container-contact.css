@@ -17,6 +17,7 @@
     width: fit-content;
     align-items: center;
     border-bottom: dotted 1px #696969;
+    padding-bottom: 2vh;
 }
 
 #contact-text-container {
