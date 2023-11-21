@@ -12,7 +12,7 @@
 .footer a {
     text-decoration: none;
     color: #9c9c9c;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .footer .social-container{
@@ -31,7 +31,7 @@
     width: fit-content;
     position: absolute;
     left: 8vw;
-    top: 14px;
+    top: 2px;
 }
 
 .footer .copyright-container p{

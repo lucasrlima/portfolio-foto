@@ -1,7 +1,7 @@
 .container-home {
     height: 100vh;
     height: fit-content;
-    padding-top: 12vh;
+    padding-top: 11vh;
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -14,7 +14,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: #F7F6F6;
-    width: 64vw;
+    width: 68vw;
     padding: 0vh 0vw 10vh 0vw;
     margin: auto;
     overflow: hidden;
