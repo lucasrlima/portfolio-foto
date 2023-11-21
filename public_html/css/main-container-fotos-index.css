@@ -2,11 +2,13 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     height: fit-content;
+    width: 100%;
     justify-content: center;
     align-items: center;
-    margin: 10vh 13vw 12vh 13vw;
+    margin: auto;
+    padding: 12vh 24vw 10vh 24vw;
     overflow: hidden;
-    
+    background-color: #F7F6F6;
 }
 
 .main-container-fotos-index a {
@@ -15,18 +17,6 @@
 
 @media(max-width: 1090px) {
     .main-container-fotos-index {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        height: fit-content;
-        margin: 10vh 8vw 8vh 8vw;
-        overflow: hidden;
+        grid-template-columns: 1fr 1fr;  
     }
-    
-}
-
-@media(max-width: 769px) {
-    .main-container-fotos-index {
-        height: 100vh;  
-    }
-    
 }

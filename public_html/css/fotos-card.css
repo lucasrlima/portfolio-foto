@@ -2,12 +2,14 @@
     display: flex;
     align-items: baseline;
     justify-content: center;
-
     background-size: cover;
-    min-width: 50vh;
-    height: 28vh;
+    max-width: 34vh;
+    min-height: 46vh;
     transition: filter 0.3s;
     filter: grayscale(99%);
+    margin-bottom: 1.5vh;
+    margin-left: 0.8vw;
+    border-radius: 4px;
 }
 
 .reportage {
@@ -15,23 +17,23 @@
 }
 
 .portraits {
-    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/portrait/GAL.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/portrait/charlotte_vert.jpg");
 }
 
 .rio2016 {
-    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/rio2016/phelps.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/rio2016/phelps_vert.jpg");
 }
 
 .politicians {
-    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/politicos/Lula-h.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/politicos/Lula.jpg");
 }
 
 .athlete {
-    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/story/zaneti_cor.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/story/diego_vert.jpg");
 }
 
 .fragments {
-    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/reportage/fragmento14.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/reportage/fragmento23.jpg");
 }
 
 .consolacao {
@@ -39,7 +41,7 @@
 }
 
 .corp-portraits {
-    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/corp/facebook.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/corp/nomad-5.jpg");
 }
 .concerts {
     background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/shows/iggy.jpg");
@@ -67,6 +69,8 @@
     background-color: rgba(0, 0, 0, 0.778);
     padding: 0 1vw 0 1vw;
     border-radius: 4px;
+    position: relative;
+    top: 12px;
 }
 
 
@@ -75,6 +79,7 @@
     .fotos-card {
         min-width: 42vw;
         height: 40vw;
+        margin-right: 1vw;
     }
 }
 
