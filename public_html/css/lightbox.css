@@ -7,9 +7,9 @@ body.lb-disable-scrolling {
   top: 0;
   left: 0;
   z-index: 9999;
-  background-color: black;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=92);
-  opacity: 0.92;
+  background-color: rgb(222, 222, 222);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=95);
+  opacity: 0.95;
   display: none;
 }
 
@@ -32,7 +32,7 @@ body.lb-disable-scrolling {
   border-radius: 3px;
 
   /* Image border */
-  border: .5px solid rgb(30, 30, 30);
+  border: 0px solid rgb(30, 30, 30);
 }
 
 .lightbox a img {
@@ -49,7 +49,7 @@ body.lb-disable-scrolling {
 
   /* Background color behind image.
      This is visible during transitions. */
-  background-color: rgb(220, 220, 220);
+  background-color: rgb(160, 160, 160);
 }
 
 .lb-outerContainer:after {
@@ -153,7 +153,7 @@ body.lb-disable-scrolling {
 
 .lb-data {
   padding: 0 4px;
-  color: #ccc;
+  color: #000000;
 }
 
 .lb-data .lb-details {
@@ -164,14 +164,14 @@ body.lb-disable-scrolling {
 }
 
 .lb-data .lb-caption {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 200;
   line-height: 1em;
   font-family: 'Poppins';
 }
 
 .lb-data .lb-caption a {
-  color: #4ae;
+  color: rgb(255, 255, 255);
 }
 
 .lb-data .lb-number {
@@ -179,7 +179,7 @@ body.lb-disable-scrolling {
   clear: left;
   padding-bottom: 1em;
   font-size: 0px;
-  color: #999999;
+  color: #000000;
   font-family: 'Poppins';
 }
 

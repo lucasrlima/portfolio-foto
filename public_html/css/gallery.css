@@ -17,7 +17,7 @@
 .gallery-column {
     display: flex;
     flex-direction: column;
-    width: 24vw;
+    width: 25vw;
     
 }
 
@@ -40,7 +40,7 @@
   justify-content: left;
   text-align: justify;
   height: fit-content;
-  padding: 0 2vw 2vh 2vw;
+  padding: 1vh 2vw 2vh 2vw;
   margin-bottom: 12px;
   border-radius: 4px;
   background-color: rgb(237, 237, 237);
@@ -59,17 +59,25 @@
   
 }
   
-  @media(max-width: 992px) {
+  @media(max-width: 886px) {
     .galeria {
       grid-template-columns: 1fr;
     }
 
     .gallery-column {
-        width: 80vw;
+        width: 50vw;
     }
 
     .description {
       padding-left: 4vw;
       padding-right: 4vw;
     }
+}
+
+@media(max-width: 674px) {
+  .gallery-column {
+      width: 80vw;
+  }
+
+ 
 }
