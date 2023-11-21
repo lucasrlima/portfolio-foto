@@ -62,11 +62,30 @@
     color: #D12429;
 }
 
-@media (max-widh: 768px) {
+@media (max-width: 992px) {
     .header-navbar img {
-        left: -16vw;
+        left: 1vw;
     }
 }
+
+@media (max-width: 808px) {
+    .header-navbar img {
+        left: 5vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .header-navbar img {
+        left: 1vw;
+    }
+}
+
+@media (max-width: 672px) {
+    .header-navbar img {
+        left: 4vw;
+    }
+}
+
 
 @media (max-width: 548px) {
     .navbar-logo {
