@@ -28,7 +28,7 @@
 
 .gallery-photo img{
     width: 100%;
-    padding-bottom: 2vh;
+    padding-bottom: 1vh;
     filter: grayscale(15%); /* 100% grayscale (black and white) */
     transition: opacity 0.3s; /* smooth transition effect */
 }
