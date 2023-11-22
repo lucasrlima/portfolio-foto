@@ -33,6 +33,10 @@
     transition: opacity 0.3s; /* smooth transition effect */
 }
 
+.gallery-column .gallery-photo img{
+  padding-bottom: 2vh;
+}
+
 .gallery-photo img:hover {
   opacity: 60%;
 }
