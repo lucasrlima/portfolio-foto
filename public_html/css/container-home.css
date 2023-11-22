@@ -2,6 +2,7 @@
     height: 100vh;
     height: fit-content;
     padding-top: 12vh;
+    padding-bottom: 12vh;
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -15,7 +16,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: #F7F6F6;
     width: 64vw;
-    padding: 0vh 0vw 10vh 0vw;
+    height: fit-content;
     margin: auto;
     overflow: hidden;
 }
@@ -30,11 +31,15 @@
     filter: opacity(90);
 }
 
+.gray-button {
+    margin-top: 1.5vh;
+}
+
 @media (max-width: 1025px) {
    
     .galeria-index {
         grid-template-columns: 1fr 1fr;
-        padding: 1.4vh 4vw 10vh 2vw;
+        padding: 1.4vh 4vw 0vh 2vw;
         width: 94vw;
     }
 
@@ -44,6 +49,7 @@
         padding-left: 2vw;
         padding-bottom: 1vh;
     }
+    
 
 }   
 
