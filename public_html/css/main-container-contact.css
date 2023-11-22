@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     height: fit-content;
-    padding-top: 14vh;
+    padding-top: 12vh;
     padding-bottom: 4vh;
 }
 
@@ -23,9 +23,13 @@
 #contact-text-container {
     display: flex;
     flex-direction: column;
-    width: 36vw;
+    width: 30vw;
     align-items: center;
     text-align: justify;
+    background-color: rgb(237, 237, 237);
+    padding-right: 2vw;
+    padding-left: 2vw;
+    border-radius: 4px;
 }
 
 #icons-container .skill-card img {

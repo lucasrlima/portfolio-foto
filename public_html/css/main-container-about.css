@@ -16,15 +16,17 @@
 
 #about-photo img {
     width: 36vw;
+    border-radius: 4px;
     position: relative;
     left: 7vw;
-    top: 2vh;
+    top: -5vh;
 }
 
 #text a:hover {
     cursor: pointer;
     color: #575757;
 }
+
 
 @media(max-width: 994px) {
     .main-container-about {
