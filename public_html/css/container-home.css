@@ -39,7 +39,7 @@
    
     .galeria-index {
         grid-template-columns: 1fr 1fr;
-        padding: 1.4vh 4vw 0vh 2vw;
+        padding: 1.4vh 4vw 12vh 2vw;
         width: 94vw;
     }
 
