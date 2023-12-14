@@ -66,9 +66,38 @@
     color: #D12429;
 }
 
+@media (min-width: 1800px) {
+    .header-navbar img {
+        left: -16vw;
+    }
+    .header-navbar a{
+        font-size: 1.3em;
+    }
+}
+
+@media (min-width: 1585px) {
+    .header-navbar img {
+        left: -12vw;
+    }
+    .header-navbar a{
+        font-size: 1.2em;
+    }
+}
+
+
 @media (max-width: 992px) {
+    .navbar-logo {
+        display: none;
+    }
+
     .header-navbar img {
         left: 1vw;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-logo-mob {
+        display: none;
     }
 }
 
@@ -92,9 +121,7 @@
 
 
 @media (max-width: 548px) {
-    .navbar-logo {
-        display: none;
-    }
+    
     .header-navbar a{
         font-size: 0.9em;
     }
@@ -105,11 +132,7 @@
 }
 
 
-@media (min-width: 548px) {
-    .navbar-logo-mob {
-        display: none;
-    }
-}
+
 
 @media(max-width: 500px) {
 
