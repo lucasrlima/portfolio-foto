@@ -70,6 +70,11 @@
     .navbar-logo {
         left: -16vw;
     }
+
+    #logo-img {
+        left: -16vw;
+    }
+
     .header-navbar a{
         font-size: 1.3em;
     }
@@ -79,6 +84,11 @@
     .navbar-logo {
         left: -12vw;
     }
+
+    #logo-img {
+        left: -10vw;
+    }
+
     .header-navbar a{
         font-size: 1.2em;
     }
