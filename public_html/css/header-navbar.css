@@ -67,7 +67,7 @@
 }
 
 @media (min-width: 1800px) {
-    .header-navbar img {
+    .navbar-logo {
         left: -16vw;
     }
     .header-navbar a{
@@ -76,7 +76,7 @@
 }
 
 @media (min-width: 1585px) {
-    .header-navbar img {
+    .navbar-logo {
         left: -12vw;
     }
     .header-navbar a{

@@ -48,6 +48,16 @@
     color: #575757;
 }
 
+@media (min-width: 1585px) {
+    .main-container-about {
+    margin-top: 16vh;
+    }
+
+    .main-container-contact {
+    margin-top: -6vh;
+    }
+}
+
 @media(max-width: 992px) {
     #contact-text-container {
         width: 76vw;
