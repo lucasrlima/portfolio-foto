@@ -93,7 +93,7 @@ function addMorePhotos(ev) {
         },
 
         {
-            href: 'images/portfolio/portrait/pickpocket.jpg',
+            href: 'images/portfolio/portrait/pickpocket.JPG',
             lightbox: 'portraits',
             title: 'Monica Poli, anti pickpocket activist',
             alt: 'Lucas Lima'
@@ -218,7 +218,7 @@ function addMorePhotos(ev) {
     });
 
     moreBtn.removeEventListener('click', addMorePhotos)
-    moreBtn.setAttribute('href', 'fotox-index')
+    moreBtn.setAttribute('href', 'fotos-index')
     moreBtn.textContent = 'Galleries Index'
   }
   
