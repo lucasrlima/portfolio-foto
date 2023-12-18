@@ -8,7 +8,9 @@ function addMorePhotos(ev) {
     const newImage = document.createElement('img')
 
     newPhoto.className = 'gallery-photo'
+    newPhoto.href = 'images/portfolio/politicos/dilma.jpg'
     newPhoto.dataset.lightbox = 'portraits'
+    newPhoto.dataset.title = 'Dilmãe'
 
     newImage.src = 'images/portfolio/politicos/dilma.jpg'
     newImage.alt = 'Lucas Lima'
