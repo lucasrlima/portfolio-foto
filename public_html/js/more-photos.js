@@ -17,7 +17,6 @@ function addMorePhotos(ev) {
             alt: 'U2'
         },
 
-
         {
             href: 'images/portfolio/shows/PJ.jpg',
             lightbox: 'portraits',
@@ -56,11 +55,10 @@ function addMorePhotos(ev) {
             alt: 'Lucas Lima'
         },
 
-
         {
             href: 'images/portfolio/portrait/DJ_marky.jpg',
             lightbox: 'portraits',
-            title: 'Liniker, singer',
+            title: 'DJ Marky',
             alt: 'Lucas Lima'
         },
 
@@ -68,6 +66,36 @@ function addMorePhotos(ev) {
             href: 'images/portfolio/story/diego2.jpg',
             lightbox: 'portraits',
             title: 'Diego Hypólito, olympic medal winner',
+            alt: 'Lucas Lima'
+        },
+
+        {
+            href: 'images/portfolio/portrait/gentili.jpg',
+            src: 'images/portfolio/portrait/gentili_vert.jpg',
+            lightbox: 'portraits',
+            title: 'Danilo Gentili, comedian',
+            alt: 'Lucas Lima'
+        },
+        
+        {
+            href: 'images/portfolio/portrait/tais_araujo.jpg',
+            lightbox: 'portraits',
+            title: 'Taís Araújo, actress',
+            alt: 'Lucas Lima'
+        },
+        
+        {
+            href: 'images/portfolio/portrait/fillipo.jpg',
+            src: 'images/portfolio/portrait/fillipo_vert.jpg',
+            lightbox: 'portraits',
+            title: "Filippo Sorcinelli, pope's Stylist",
+            alt: 'Lucas Lima'
+        },
+
+        {
+            href: 'images/portfolio/portrait/pickpocket.jpg',
+            lightbox: 'portraits',
+            title: 'Monica Poli, anti pickpocket activist',
             alt: 'Lucas Lima'
         },
         
@@ -80,9 +108,9 @@ function addMorePhotos(ev) {
 
 
         {
-            href: 'images/portfolio/politicos/haddad.jpg',
+            href: 'images/portfolio/politicos/marina.jpg',
             lightbox: 'portraits',
-            title: 'Fernando Haddad',
+            title: 'Marina Silva, brazillian minister',
             alt: 'Lucas Lima'
         },
         
@@ -93,14 +121,78 @@ function addMorePhotos(ev) {
             alt: 'Lucas Lima'
         },
         
-       
-        
         {
-          href: 'images/portfolio/corp/nomad-2.jpg',
+          href: 'images/portfolio/portrait/kaka.jpg',
           lightbox: 'portraits',
           title: 'Corp Portraits',
           alt: 'Lucas Lima'
         },
+        
+        {
+            href: 'images/portfolio/reportage/tourada7.jpg',
+            src: 'images/portfolio/reportage/tourada7_vert.jpg',
+            lightbox: 'portraits',
+            title: 'Bull Fight in Portugal',
+            alt: 'Lucas Lima'
+          },
+
+          {
+              href: 'images/portfolio/reportage/tourada2.jpg',
+              src: 'images/portfolio/reportage/tourada2_vert.jpg',
+              lightbox: 'portraits',
+              title: 'Bull Fight in Portugal',
+              alt: 'Lucas Lima'
+          },
+          
+          {
+              href: 'images/portfolio/reportage/fragmento14.jpg',
+              src: 'images/portfolio/reportage/fragmento14_vert.jpg',
+              lightbox: 'portraits',
+              title: 'Berlin',
+              alt: 'Lucas Lima'
+            },
+            
+            
+            {
+                href: 'images/portfolio/reportage/yoga-3.jpg',
+                lightbox: 'portraits',
+                title: 'Nude Yoga',
+                alt: 'Lucas Lima'
+              },
+              
+              {
+                href: 'images/portfolio/story/murer5.jpg',
+                src: 'images/portfolio/story/murer5_vert.jpg',
+                lightbox: 'portraits',
+                title: 'Fabiana Murer, olympic athlete',
+                alt: 'Lucas Lima'
+              },
+
+              {
+                href: 'images/portfolio/story/zanetti12jpg.jpg',
+                src: 'images/portfolio/story/zanetti12_vert.jpg',
+                lightbox: 'portraits',
+                title: 'Artur Zanetti, olympic gold medal winner',
+                alt: 'Lucas Lima'
+              },
+
+
+              {
+                href: 'images/portfolio/reportage/drag3.jpg',
+                src: 'images/portfolio/reportage/drag3_vert.jpg',
+                lightbox: 'portraits',
+                title: 'Girl in Drag',
+                alt: 'Lucas Lima'
+              },
+            
+              {
+              href: 'images/portfolio/reportage/drag1.jpg',
+              src: 'images/portfolio/reportage/drag1_vert.jpg',
+              lightbox: 'portraits',
+              title: 'Girl in Drag',
+              alt: 'Lucas Lima'
+            },
+
       // Adicione mais objetos conforme necessário
     ];
   
