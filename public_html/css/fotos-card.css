@@ -47,6 +47,9 @@
     background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/shows/iggy.jpg");
 }
 
+.street {
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/street/lisbon-10.jpg");
+}
 
 .fotos-card:hover {
     filter: grayscale(16%); /* Apply the grayscale filter on hover */
