@@ -192,8 +192,39 @@ function addMorePhotos(ev) {
               title: 'Girl in Drag',
               alt: 'Lucas Lima'
             },
+            
+            {
+                href: 'images/portfolio/street/evora-01.jpg',
+                src: 'images/portfolio/street/evora-01.jpg',
+                lightbox: 'portraits',
+                title: 'Evora, Portugal',
+                alt: 'Lucas Lima'
+            },
+            
+            {
+                href: 'images/portfolio/street/SP-03.jpg',
+                src: 'images/portfolio/street/SP-03.jpg',
+                lightbox: 'portraits',
+                title: 'São Paulo',
+                alt: 'Lucas Lima'
+            },
+            
+            {
+                href: 'images/portfolio/street/lisbon-06.jpg',
+                src: 'images/portfolio/street/lisbon-06.jpg',
+                lightbox: 'portraits',
+                title: 'Lisbon',
+                alt: 'Lucas Lima'
+              },
 
-      // Adicione mais objetos conforme necessário
+              {
+                href: 'images/portfolio/street/firenze05.jpg',
+                src: 'images/portfolio/street/firenze05.jpg',
+                lightbox: 'portraits',
+                title: 'Firenze, Italy',
+                alt: 'Lucas Lima'
+              },
+            // Adicione mais objetos conforme necessário
     ];
   
     // Iterar sobre o array de fotos e criar elementos para cada uma
