@@ -124,7 +124,7 @@ function addMorePhotos(ev) {
         {
           href: 'images/portfolio/portrait/kaka.jpg',
           lightbox: 'portraits',
-          title: 'Corp Portraits',
+          title: 'Kaká, football player',
           alt: 'Lucas Lima'
         },
         
