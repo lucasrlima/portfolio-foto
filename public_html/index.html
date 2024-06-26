@@ -10,37 +10,59 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
     
-    <title>Lucas R Lima - Photo Portfolio</title>
-    <meta name="description" content="Lucas Lima photo portfolio">
-    <meta name="keywords" content="fotos, fotógrafo, photo, photos, photographer, portraits, retrato, development, front-end, developer, lucas lima, sandy, marido, retratos, palmeiras, santos, jogador, eventos, fotojornalismo, photojournalism, photojournalist, events">
+    <title>Fotógrafo em Lisboa | Lucas Lima</title>
+    <meta name="description" content="Fotógrafo profissional de eventos e retratos corporativos em Lisboa. Professional Photographer in Lisbon.">
+    <meta name="keywords" content="fotógrado de eventos, retratos corporativos, fotos, fotógrafo, lisboa, photo, photos, photographer, portraits, portrait photographer Lisbbon, retrato em Lisboa, lucas lima, sandy, marido, retratos, palmeiras, santos, jogador, eventos, fotojornalismo, photojournalism, photojournalist, events">
+
+    <link rel="canonical" href="https://www.lucasrlima.com/">
+
 
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
             "@type": "Person",
             "name": "Lucas Lima",
-            "jobTitle": "Front-end Developer", "Photographer", "Fotógrafo",
+            "jobTitle": ["Photographer", "Fotógrafo"],
             "url": "https://www.lucasrlima.com",
             "sameAs": [
-            "https://www.lucasrlima.me"
-            "https://www.linkedin.com/in/lucasrochalima",
-            "https://www.github.com/lucasrlima"
-            "https://www.instagram.com/_lucasrlima"
+                "https://www.lucasrlima`",
+                "https://www.linkedin.com/in/lucasrochalima",
+                "https://www.github.com/lucasrlima",
+                "https://www.instagram.com/_lucasrlima"
             ]
         }
     </script>
 
-    <meta property="og:title" content="Lucas Lima Photographer">
-    <meta property="og:description" content="Lucas R Lima - Photo Portfolio">
-    <meta property="og:image" content="https://lucasrlima.me/images/about.jpg">
+    <meta property="og:site_name" content="Lucas Lima Fotógrafo">
+    <meta property="og:title" content="Fotógrafo em Lisboa | Lucas Lima">
+    <meta property="og:description" content="Fotógrafo profissional de eventos e retratos corporativos em Lisboa. Professional Photographer in Lisbon.">
+    <meta property="og:image" content="https://lucasrlima.com/images/about.jpg">
     <meta property="og:url" content="https://www.lucasrlima.com">
+    <meta property="og:type" content="website">
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <style>
-      body {
-        display: none; /* Hide the body by default */
-      }
-    </style>    
+    <meta itemprop="name" content="Lucas Lima Fotógrafo">
+    <meta itemprop="url" content="https://www.lucasrlima.com/">
+    <meta itemprop="description" content="Fotógrafo de eventos, Retratos Corporativos">
+    <meta itemprop="thumbnailUrl" content="https://lucasrlima.com/images/about.jpg">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Fotógrafo de Eventos e Retratos Corporativos em Lisboa | Lucas Lima">
+    <meta name="twitter:description" content="Fotógrafo de eventos, Retratos Corporativos">
+    <meta name="twitter:image" content="https://lucasrlima`/images/about.jpg">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6FMT9RRSXB"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-6FMT9RRSXB');
+    </script>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+   
 
 </head>
 
@@ -253,7 +275,7 @@
     
           // Click event to navigate to a random page with a fade-out effect
           $("container-home").on("click", function() {
-            var randomPage = getRandomPage(["about.html", "athlete.html", "concerts.html", "contact.html", "consolacao.html", "corp.html", "fotos-index.html", "fragments.html", "politicos.html", "portraits.html", "rio2016.html", "politicos.html", "touradas.html"]);
+            var randomPage = getRandomPage(["about.html", "athlete.html", "concerts.html", "contact.html", "consolacao.html", "corp.html", "fotos-index.html", "fragments.html", "politicos.html", "portraits.html", "rio2016.html", "touradas.html"]);
             $("body").fadeOut(function() {
               window.location.href = randomPage;
             });
