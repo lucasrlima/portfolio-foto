@@ -28,6 +28,10 @@
     background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/politicos/lula.jpg");
 }
 
+.food {
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/food/food_0103.jpg");
+}
+
 .athlete {
     background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/story/diego_cor.jpg");
 }
