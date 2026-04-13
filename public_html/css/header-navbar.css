@@ -1,6 +1,6 @@
 .header-navbar {
     font-family: Poppins;
-    font-size: 20px;
+    font-size: 18px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -131,7 +131,7 @@
 
 
 @media (max-width: 548px) {
-    
+
     .header-navbar a{
         font-size: 0.9em;
     }
@@ -148,7 +148,7 @@
 
     .header-navbar img{
         left: 16px;
-        
+
     }
 
     .header-navbar a{
@@ -160,7 +160,7 @@
 @media(max-width: 324px) {
     .header-navbar img{
         display: none;
-        
+
     }
 }
 

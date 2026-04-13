@@ -4,9 +4,9 @@ moreBtn.addEventListener('click', addMorePhotos)
 
 function addMorePhotos(ev) {
     ev.preventDefault();
-  
+
     const gallery = document.querySelector('.galeria-index');
-  
+
     // Array de objetos representando detalhes de fotos
     const photos = [
         {
@@ -23,7 +23,7 @@ function addMorePhotos(ev) {
             title: 'PJ Harvey',
             alt: 'PJ Harvey'
         },
-        
+
         {
             href: 'images/portfolio/shows/stones.jpg',
             src: 'images/portfolio/shows/stones_vert.jpg',
@@ -63,9 +63,9 @@ function addMorePhotos(ev) {
         },
 
         {
-            href: 'images/portfolio/story/diego2.jpg',
+            href: 'images/portfolio/story/esquiva2.jpg',
             lightbox: 'portraits',
-            title: 'Diego Hypólito, olympic medal winner',
+            title: 'Esquiva Falcão, olympic medal winner',
             alt: 'Lucas Lima'
         },
 
@@ -76,14 +76,14 @@ function addMorePhotos(ev) {
             title: 'Danilo Gentili, comedian',
             alt: 'Lucas Lima'
         },
-        
+
         {
             href: 'images/portfolio/portrait/tais_araujo.jpg',
             lightbox: 'portraits',
             title: 'Taís Araújo, actress',
             alt: 'Lucas Lima'
         },
-        
+
         {
             href: 'images/portfolio/portrait/fillipo.jpg',
             src: 'images/portfolio/portrait/fillipo_vert.jpg',
@@ -93,86 +93,62 @@ function addMorePhotos(ev) {
         },
 
         {
-            href: 'images/portfolio/portrait/pickpocket.JPG',
-            lightbox: 'portraits',
-            title: 'Monica Poli, anti pickpocket activist',
-            alt: 'Lucas Lima'
-        },
-        
-        {
-            href: 'images/portfolio/portrait/liniker.jpg',
-            lightbox: 'portraits',
-            title: 'Liniker, singer',
-            alt: 'Lucas Lima'
-        },
-
-
-        {
-            href: 'images/portfolio/politicos/marina.jpg',
-            lightbox: 'portraits',
-            title: 'Marina Silva, brazillian minister',
-            alt: 'Lucas Lima'
-        },
-        
-        {
-            href: 'images/portfolio/politicos/temer.jpg',
-            lightbox: 'portraits',
-            title: 'Michel Temer, former brazillian president',
-            alt: 'Lucas Lima'
-        },
-        
-        {
           href: 'images/portfolio/portrait/kaka.jpg',
+          src: 'images/portfolio/portrait/kaka.jpg',
           lightbox: 'portraits',
           title: 'Kaká, football player',
           alt: 'Lucas Lima'
         },
-        
+
+
+
         {
-            href: 'images/portfolio/reportage/tourada7.jpg',
-            src: 'images/portfolio/reportage/tourada7_vert.jpg',
+            href: 'images/portfolio/corp/etad-6.jpg',
+            src: 'images/portfolio/corp/etad-6.jpg',
             lightbox: 'portraits',
-            title: 'Bull Fight in Portugal',
+            title: 'Inaê',
             alt: 'Lucas Lima'
           },
 
+
           {
-              href: 'images/portfolio/reportage/tourada2.jpg',
-              src: 'images/portfolio/reportage/tourada2_vert.jpg',
+              href: 'images/portfolio/food/food_0003.jpg',
+              src: 'images/portfolio/food/food_0003.jpg',
               lightbox: 'portraits',
-              title: 'Bull Fight in Portugal',
-              alt: 'Lucas Lima'
-          },
-          
-          {
-              href: 'images/portfolio/reportage/fragmento14.jpg',
-              src: 'images/portfolio/reportage/fragmento14_vert.jpg',
-              lightbox: 'portraits',
-              title: 'Berlin',
+              title: '.',
               alt: 'Lucas Lima'
             },
-            
-            
+
+
             {
-                href: 'images/portfolio/reportage/yoga-3.jpg',
+                href: 'images/portfolio/food/food_0103.jpg',
+                src: 'images/portfolio/food/food_0103.jpg',
                 lightbox: 'portraits',
-                title: 'Nude Yoga',
-                alt: 'Lucas Lima'
-              },
-              
-              {
-                href: 'images/portfolio/story/murer5.jpg',
-                src: 'images/portfolio/story/murer5_vert.jpg',
-                lightbox: 'portraits',
-                title: 'Fabiana Murer, olympic athlete',
+                title: '.',
                 alt: 'Lucas Lima'
               },
 
               {
-                href: 'images/portfolio/story/zanetti12jpg.jpg',
-                src: 'images/portfolio/story/zanetti12_vert.jpg',
+                href: 'images/portfolio/portrait/bruna.jpg',
+                src: 'images/portfolio/portrait/bruna.jpg',
                 lightbox: 'portraits',
-                title: 'Artur Zanetti, olympic gold medal winner',
+                title: 'Bruna',
+                alt: 'Lucas Lima'
+              },
+
+              {
+                href: 'images/portfolio/reportage/tanoaria5_vert.jpg',
+                src: 'images/portfolio/reportage/tanoaria5_vert.jpg',
+                lightbox: 'portraits',
+                title: 'Port Wine Barrels',
+                alt: 'Lucas Lima'
+              },
+
+              {
+                href: 'images/portfolio/reportage/tanoaria4_vert.jpg',
+                src: 'images/portfolio/reportage/tanoaria4_vert.jpg',
+                lightbox: 'portraits',
+                title: 'Port Wine Barrels',
                 alt: 'Lucas Lima'
               },
 
@@ -184,7 +160,7 @@ function addMorePhotos(ev) {
                 title: 'Girl in Drag',
                 alt: 'Lucas Lima'
               },
-            
+
               {
               href: 'images/portfolio/reportage/drag1.jpg',
               src: 'images/portfolio/reportage/drag1_vert.jpg',
@@ -192,67 +168,69 @@ function addMorePhotos(ev) {
               title: 'Girl in Drag',
               alt: 'Lucas Lima'
             },
-            
+
+
+
             {
-                href: 'images/portfolio/street/evora-01.jpg',
-                src: 'images/portfolio/street/evora-01.jpg',
+                href: 'images/portfolio/35mm/lorrayne.jpg',
+                src: 'images/portfolio/35mm/lorrayne.jpg',
                 lightbox: 'portraits',
-                title: 'Evora, Portugal',
+                title: 'Lorrayne',
                 alt: 'Lucas Lima'
             },
-            
+
             {
-                href: 'images/portfolio/street/SP-03.jpg',
-                src: 'images/portfolio/street/SP-03.jpg',
+                href: 'images/portfolio/35mm/gio.jpg',
+                src: 'images/portfolio/35mm/gio.jpg',
                 lightbox: 'portraits',
-                title: 'São Paulo',
-                alt: 'Lucas Lima'
-            },
-            
-            {
-                href: 'images/portfolio/street/lisbon-06.jpg',
-                src: 'images/portfolio/street/lisbon-06.jpg',
-                lightbox: 'portraits',
-                title: 'Lisbon',
+                title: 'Gio',
                 alt: 'Lucas Lima'
               },
 
               {
-                href: 'images/portfolio/street/firenze05.jpg',
-                src: 'images/portfolio/street/firenze05.jpg',
+                href: 'images/portfolio/35mm/pedro.jpg',
+                src: 'images/portfolio/35mm/pedro.jpg',
                 lightbox: 'portraits',
-                title: 'Firenze, Italy',
+                title: 'Pedro Luís',
                 alt: 'Lucas Lima'
               },
+
+              {
+              href: 'images/portfolio/35mm/ian.jpg',
+              src: 'images/portfolio/35mm/ian.jpg',
+                lightbox: 'portraits',
+                title: 'Ian Ramil',
+                alt: 'Lucas Lima'
+            },
             // Adicione mais objetos conforme necessário
     ];
-  
+
     // Iterar sobre o array de fotos e criar elementos para cada uma
     photos.forEach(photo => {
       const newPhoto = document.createElement('a');
       const newImage = document.createElement('img');
-  
+
       newPhoto.className = 'gallery-photo';
       newPhoto.href = photo.href;
       newPhoto.dataset.lightbox = photo.lightbox;
       newPhoto.dataset.title = photo.title;
-      
+
       if (photo.src === undefined) {
-        newImage.src = photo.href} 
+        newImage.src = photo.href}
        // Use o mesmo caminho da imagem para o src
        else newImage.src = photo.src;
-       
+
        newImage.alt = photo.alt;
-  
+
       newPhoto.appendChild(newImage);
       gallery.appendChild(newPhoto);
     });
 
     moreBtn.removeEventListener('click', addMorePhotos)
     moreBtn.setAttribute('href', 'fotos-index')
-    moreBtn.textContent = 'Galleries Index'
+    moreBtn.textContent = 'Galleries'
   }
-  
-  
+
+
 
 
