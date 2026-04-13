@@ -1,18 +1,18 @@
 .black-button {
     font-family: Poppins;
     font-weight: 200;
-    font-size: 15px;
+    font-size: 14px;
     border: solid thin;
-    border-radius: 8px;
-    padding: 8px;
+    border-radius: 4px;
+    padding: 4px;
     text-align: center;
     text-decoration: none;
     color: #eeeeee;
-    width: 140px;
+    width: 70px;
     background-color: black;
-    
+
 }
 
 .black-button:hover {
-    background-color: #575757; 
+    background-color: #575757;
 }
