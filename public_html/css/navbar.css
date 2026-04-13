@@ -38,7 +38,7 @@
     right: 2vw;
     top: calc(100% + .25rem);
     background-color: white;
-    
+
     padding: 0.75rem;
     padding-right: 20px;
     padding-left: 20px;
@@ -84,7 +84,7 @@
     }
 
     .link{
-        font-size: 16px; 
+        font-size: 16px;
     }
 }
 
