@@ -12,6 +12,10 @@
     border-radius: 4px;
 }
 
+.cultural-heritage {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/portfolio/cultural/cultural_79.jpg");
+}
+
 .reportage {
     background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("../images/portfolio/reportage/TOURO.jpg");
 }
@@ -86,7 +90,7 @@
 
 
 @media(max-width: 1090px) {
-    
+
     .fotos-card {
         min-width: 42vw;
         height: 40vw;
@@ -95,15 +99,15 @@
 }
 
 @media(max-width: 768px) {
-   
+
     .fotos-card {
         width: 30vw;
-        height: 20vh; 
+        height: 20vh;
     }
 
     .fotos-card-text h2{
         font-size: 0.8rem;
-        
+
     }
 }
 
