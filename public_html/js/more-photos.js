@@ -9,37 +9,6 @@ function addMorePhotos(ev) {
 
     // Array de objetos representando detalhes de fotos
     const photos = [
-        {
-            href: 'images/portfolio/shows/bono.jpg',
-            src: 'images/portfolio/shows/bono_vert.jpg',
-            lightbox: 'portraits',
-            title: 'U2',
-            alt: 'U2'
-        },
-
-        {
-            href: 'images/portfolio/shows/PJ.jpg',
-            lightbox: 'portraits',
-            title: 'PJ Harvey',
-            alt: 'PJ Harvey'
-        },
-
-        {
-            href: 'images/portfolio/shows/stones.jpg',
-            src: 'images/portfolio/shows/stones_vert.jpg',
-            lightbox: 'portraits',
-            title: 'The Rolling Stones',
-            alt: 'The Rolling Stones'
-        },
-
-        {
-            href: 'images/portfolio/shows/paul.jpg',
-            src: 'images/portfolio/shows/paul_vert.jpg',
-            lightbox: 'portraits',
-            title: 'Paul McCartney',
-            alt: 'Paul McCartney'
-        },
-
 
         {
             href: 'images/portfolio/portrait/trajano.jpg',
@@ -137,7 +106,7 @@ function addMorePhotos(ev) {
               },
 
               {
-                href: 'images/portfolio/reportage/tanoaria5_vert.jpg',
+                href: 'images/portfolio/reportage/tanoaria5.jpg',
                 src: 'images/portfolio/reportage/tanoaria5_vert.jpg',
                 lightbox: 'portraits',
                 title: 'Port Wine Barrels',
@@ -145,7 +114,7 @@ function addMorePhotos(ev) {
               },
 
               {
-                href: 'images/portfolio/reportage/tanoaria4_vert.jpg',
+                href: 'images/portfolio/reportage/tanoaria4.jpg',
                 src: 'images/portfolio/reportage/tanoaria4_vert.jpg',
                 lightbox: 'portraits',
                 title: 'Port Wine Barrels',
@@ -201,6 +170,37 @@ function addMorePhotos(ev) {
                 lightbox: 'portraits',
                 title: 'Ian Ramil',
                 alt: 'Lucas Lima'
+            },
+
+            {
+              href: 'images/portfolio/shows/bono.jpg',
+              src: 'images/portfolio/shows/bono_vert.jpg',
+              lightbox: 'portraits',
+              title: 'U2',
+              alt: 'U2'
+            },
+
+            {
+              href: 'images/portfolio/shows/PJ.jpg',
+              lightbox: 'portraits',
+              title: 'PJ Harvey',
+              alt: 'PJ Harvey'
+            },
+
+            {
+              href: 'images/portfolio/shows/stones.jpg',
+              src: 'images/portfolio/shows/stones_vert.jpg',
+              lightbox: 'portraits',
+              title: 'The Rolling Stones',
+              alt: 'The Rolling Stones'
+            },
+
+            {
+              href: 'images/portfolio/shows/paul.jpg',
+              src: 'images/portfolio/shows/paul_vert.jpg',
+              lightbox: 'portraits',
+              title: 'Paul McCartney',
+              alt: 'Paul McCartney'
             },
             // Adicione mais objetos conforme necessário
     ];
