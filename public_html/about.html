@@ -6,7 +6,7 @@
     <link rel="icon" href="images/contato.jpeg" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
-    
+
     <title>Lucas R Lima - Photo Portfolio</title>
     <meta name="description" content="Lucas Lima photo portfolio">
     <meta name="keywords" content="fotos, fotógrafo, photo, photos, photographer, portraits, retrato, development, front-end, developer, lucas lima, sandy, marido, retratos, palmeiras, santos, jogador, eventos, fotojornalismo, photojournalism, photojournalist, events">
@@ -37,18 +37,18 @@
       body {
         display: none; /* Hide the body by default */
       }
-    </style> 
+    </style>
 
 </head>
 <body>
-    
+
     <div class="header-navbar">
         <div class="container">
           <a href="index"><img src="images/LL_mobile.png" alt="Lucas Lima"></a>
-      
+
           <a id="index-link"href="index">Overview</a>
           <a id="about-link" href="about">About</a>
-          <a id="fotos-link" href="fotos-index">Photos</a>  
+          <a id="fotos-link" href="fotos-index">Photos</a>
         </div>
     </div>
 
@@ -61,51 +61,41 @@
       <div class="main-container-contact">
           <div id="contact-text-container">
               <div>
-                  <h1>Photographer, journalist. </h1>
-                  
+
                   <p>
                       <br>
-                      <strong>Lisbon based. </strong>Born and raised in São Paulo, Brazil, I've been through this journey in photography and journalism for about 20 years.
+                      <strong>Lisbon based, </strong>I was born and raised in São Paulo, Brazil, and have worked across photography and journalism for over 20 years, with a current focus on portraiture and Cultural Heritage.
                       <br>
                       <br>
-                      For the last 8 years, I worked as Photo Editor in <a href="https://www.uol.com.br/" target="_blank">UOL</a>, one of the biggest news website in Brazil. There, I led a team of freelance photographers, made the visual edition of special reportages and managed big events photo coverages.
+                      I worked as a Photo Editor at <a href="https://www.uol.com.br/" target="_blank">UOL</a>, one of Brazil’s largest news platforms, where I led a network of freelance photographers, edited visual content for in-depth reports, and managed photographic coverage of major events.
                       <br>
                       <br>
-                      I've built my career with all love and care that you can see in these photos. Mainly focused on editorial market, my path walks side by side with most important publications in Brazil, like  <a href="https://www.folha.com.br/" target="_blank">Folha de São Paulo</a>, <a href="https://www.abril.com.br/" target="_blank">Editora Abril</a>, <a href="https://www.assineglobo.com.br/" target="_blank">Editora Globo</a>, <a href="https://revistatrip.uol.com.br/" target="_blank">Editora Trip</a>, and others. 
+                      My career has been shaped within the editorial field, collaborating with some of Brazil’s most important publications, including Folha de S. Paulo, Editora Abril, Editora Globo, and Editora Trip.
                       <br>
                       <br>
-                      Here I'll keep sharing a bit of this story.
-                      <br>
-                      <br>
-                      Living in Europe since early 2023. 
+
                   </p>
-      
+
               </div>
-                  
+
               <br>
 
-              <div>
-                  <h1>Call me 📞</h1>
-                  <p>
-                      Open to jobs, freelances, a good talk, coffee, a glass of portuguese wine and others invites. Choose a channel and say hello! 
-                  </p>
-              </div>
           </div>
 
           <div id="icons-container">
-              
+
               <div class="skill-card">
                   <a href="http://www.linkedin.com/in/lucasrochalima" target="_blank" class="fa-brands fa-linkedin"><p>LinkedIn</p></a>
               </div>
-              
+
               <div class="skill-card">
                   <a href="mailto:lucas@lucasrlima.com" target="_blank" class="fa-solid fa-envelope"><p>Email</p></a>
               </div>
-              
+
               <div class="skill-card">
-                  <a href="http://www.instagram.com/_lucasrlima" target="_blank" class="fa-solid fa-camera-retro"><p>Instagram</p></a>        
+                  <a href="http://www.instagram.com/_lucasrlima" target="_blank" class="fa-solid fa-camera-retro"><p>Instagram</p></a>
               </div>
-          
+
               <div class="skill-card">
                   <a href="https://api.whatsapp.com/send?phone=5511991877870" target="_blank" class="fa-brands fa-whatsapp"><p>Whatsapp</p></a>
               </div>
@@ -124,7 +114,7 @@
         $(document).ready(function() {
           // Fade in the body when the document is ready
           $("body").fadeIn();
-    
+
           // Click event to navigate to a random page with a fade-out effect
           $("container-home").on("click", function() {
             var randomPage = getRandomPage(["index.html", "athlete.html", "concerts.html", "contact.html", "consolacao.html", "corp.html", "fotos-index.html", "fragments.html", "portraits.html", "rio2016.html", "politicos.html", "touradas.html"]);
@@ -132,7 +122,7 @@
               window.location.href = randomPage;
             });
           });
-    
+
           // Function to get a random page from an array
           function getRandomPage(pages) {
             var randomIndex = Math.floor(Math.random() * pages.length);
