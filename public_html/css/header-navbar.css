@@ -121,11 +121,17 @@
     .header-navbar img {
         left: 1vw;
     }
+     .header-navbar a{
+        font-size: 0.7em;
+    }
 }
 
 @media (max-width: 672px) {
     .header-navbar img {
         left: 2vw;
+    }
+    .header-navbar a{
+        font-size: 0.7em;
     }
 }
 
@@ -133,7 +139,7 @@
 @media (max-width: 548px) {
 
     .header-navbar a{
-        font-size: 0.9em;
+        font-size: 0.8em;
     }
 
     .header-navbar  {
@@ -153,7 +159,7 @@
 
     .header-navbar a{
         padding-right: 12px;
-        font-size: 0.9em;
+        font-size: 0.6em;
     }
 }
 

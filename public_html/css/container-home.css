@@ -36,7 +36,7 @@
 }
 
 @media (max-width: 1025px) {
-   
+
     .galeria-index {
         grid-template-columns: 1fr 1fr;
         padding: 1.4vh 4vw 2vh 2vw;
@@ -49,9 +49,9 @@
         padding-left: 2vw;
         padding-bottom: 1vh;
     }
-    
 
-}   
+
+}
 
 
 
@@ -60,7 +60,7 @@
     .galeria-index {
         padding-top: 1vh;
     }
-    
+
 
 }
 
