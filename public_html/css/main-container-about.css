@@ -3,7 +3,7 @@
     grid-template-columns: 1fr 1.5fr;
     align-items: center;
     height: fit-content;
-    
+
     margin-bottom: 8vh;
     overflow: hidden;
 }
@@ -43,14 +43,14 @@
         align-items: center;
         margin-left: 8vw;
         margin-right: 6vw;
-        margin-bottom: 4vh;   
+        margin-bottom: 4vh;
     }
 
     #about-photo img {
         width: 60%;
         margin-top: 5vh;
         left: 0;
-        top: 8vh;        
+        top: 8vh;
     }
 }
 
