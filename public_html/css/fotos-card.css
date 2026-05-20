@@ -80,14 +80,13 @@
     color: whitesmoke;
     font-family: Poppins;
     font-weight: 200;
-    font-size: 1rem;
+    font-size: 0.9rem;
     background-color: rgba(0, 0, 0, 0.778);
     padding: 0 1vw 0 1vw;
     border-radius: 4px;
     position: relative;
-    top: 12px;
+    top: 16px;
 }
-
 
 @media(max-width: 1090px) {
 
