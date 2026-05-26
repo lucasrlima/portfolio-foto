@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-PT">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -303,7 +303,8 @@
 
           // Click event to navigate to a random page with a fade-out effect
           $("container-home").on("click", function() {
-            var randomPage = getRandomPage(["about.html", "athlete.html", "concerts.html", "contact.html", "consolacao.html", "corp.html", "fotos-index.html", "fragments.html", "politicos.html", "portraits.html", "rio2016.html", "touradas.html"]);
+          $(".container-home").on("click", function() {
+            var randomPage = getRandomPage(["about.html", "index.html", "fotos-index.html", "portraits.html", "cultural-heritage.html", "corp.html", "35mm.html", "reportage.html", "food.html"]);
             $("body").fadeOut(function() {
               window.location.href = randomPage;
             });
