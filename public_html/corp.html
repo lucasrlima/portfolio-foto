@@ -239,8 +239,8 @@
           $("body").fadeIn();
 
           // Click event to navigate to a random page with a fade-out effect
-          $("container-home").on("click", function() {
-            var randomPage = getRandomPage(["about.html", "athlete.html", "concerts.html", "contact.html", "consolacao.html", "index.html", "fotos-index.html", "fragments.html", "politicos.html", "portraits.html", "rio2016.html", "touradas.html"]);
+          $(".container-home").on("click", function() {
+            var randomPage = getRandomPage(["about.html", "index.html", "fotos-index.html", "portraits.html", "cultural-heritage.html", "corp.html", "35mm.html", "reportage.html", "food.html"]);
             $("body").fadeOut(function() {
               window.location.href = randomPage;
             });
