@@ -23,7 +23,7 @@
     flex-direction: column;
     width: 25vw;
     align-items: end;
-    
+
 }
 
 .gallery-photo img{
@@ -48,7 +48,7 @@
   justify-content: left;
   text-align: justify;
   height: fit-content;
-  padding: 2vh 2vw 2vh 2vw; 
+  padding: 2vh 2vw 2vh 2vw;
   margin-bottom: 12px;
   border-radius: 4px;
   background-color: rgb(237, 237, 237);
@@ -63,13 +63,22 @@
   padding-bottom: 3vh;
 }
 
+.description h1 {
+  font-weight: bold;
+  font-family: Poppins;
+  font-size: 16px;
+  height: 2vh;
+  padding-top: 1vh;
+  padding-bottom: 3vh;
+}
+
 .description a{
   color: black;
   /*text-decoration: none;*/
-  
+
 }
 
-  
+
   @media(max-width: 886px) {
     .galeria {
       grid-template-columns: 1fr;
@@ -90,5 +99,5 @@
       width: 80vw;
   }
 
- 
+
 }
