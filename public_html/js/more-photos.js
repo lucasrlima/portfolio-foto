@@ -9,66 +9,37 @@ function addMorePhotos(ev) {
 
     // Array de objetos representando detalhes de fotos
     const photos = [
+      {
+        href: 'images/portfolio/portrait/gentili.jpg',
+        src: 'images/portfolio/portrait/gentili_vert.jpg',
+        lightbox: 'portraits',
+        title: 'Danilo Gentili, comedian',
+        alt: 'Portrait of the comedian Danilo Gentile'
+      },
 
-        {
-            href: 'images/portfolio/portrait/trajano.jpg',
-            lightbox: 'portraits',
-            title: 'José Trajano, journalist',
-            alt: 'Lucas Lima'
-        },
+      {
+        href: 'images/portfolio/portrait/muricy.jpg',
+        src: 'images/portfolio/portrait/muricy.jpg',
+        lightbox: 'portraits',
+        title: 'Muricy Ramalho, football coach',
+        alt: 'Portrait of the football coach Muricy Ramalho'
+      },
 
-        {
-            href: 'images/portfolio/consolacao/consolacao-3.jpg',
-            lightbox: 'portraits',
-            title: 'Consolação, book cover',
-            alt: 'Lucas Lima'
-        },
+      {
+        href: 'images/portfolio/politicos/FHC.jpg',
+        src: 'images/portfolio/politicos/FHC.jpg',
+        lightbox: 'portraits',
+        title: 'Fernando Henrique Cardoso, former president',
+        alt: 'Portrait of the Fernando Henrique Cardoso, former Brazillian President'
+      },
 
-        {
-            href: 'images/portfolio/portrait/DJ_marky.jpg',
-            lightbox: 'portraits',
-            title: 'DJ Marky',
-            alt: 'Lucas Lima'
-        },
-
-        {
-            href: 'images/portfolio/story/esquiva2.jpg',
-            lightbox: 'portraits',
-            title: 'Esquiva Falcão, olympic medal winner',
-            alt: 'Lucas Lima'
-        },
-
-        {
-            href: 'images/portfolio/portrait/gentili.jpg',
-            src: 'images/portfolio/portrait/gentili_vert.jpg',
-            lightbox: 'portraits',
-            title: 'Danilo Gentili, comedian',
-            alt: 'Lucas Lima'
-        },
-
-        {
-            href: 'images/portfolio/portrait/tais_araujo.jpg',
-            lightbox: 'portraits',
-            title: 'Taís Araújo, actress',
-            alt: 'Lucas Lima'
-        },
-
-        {
-            href: 'images/portfolio/portrait/fillipo.jpg',
-            src: 'images/portfolio/portrait/fillipo_vert.jpg',
-            lightbox: 'portraits',
-            title: "Filippo Sorcinelli, pope's Stylist",
-            alt: 'Lucas Lima'
-        },
-
-        {
-          href: 'images/portfolio/portrait/kaka.jpg',
-          src: 'images/portfolio/portrait/kaka.jpg',
-          lightbox: 'portraits',
-          title: 'Kaká, football player',
-          alt: 'Lucas Lima'
-        },
-
+      {
+        href: 'images/portfolio/portrait/emicida.jpg',
+        src: 'images/portfolio/portrait/emicida.jpg',
+        lightbox: 'portraits',
+        title: 'Emicida',
+        alt: 'Portrait of the brazillian musisian Emicida'
+      },
 
 
         {
@@ -76,7 +47,7 @@ function addMorePhotos(ev) {
             src: 'images/portfolio/corp/etad-6.jpg',
             lightbox: 'portraits',
             title: 'Inaê',
-            alt: 'Lucas Lima'
+            alt: 'Commisioned portrait'
           },
 
 
@@ -84,8 +55,8 @@ function addMorePhotos(ev) {
               href: 'images/portfolio/food/food_0003.jpg',
               src: 'images/portfolio/food/food_0003.jpg',
               lightbox: 'portraits',
-              title: '.',
-              alt: 'Lucas Lima'
+              title: 'Tássia Magalhães',
+              alt: 'Portrait of the chef Tássia Magalhães'
             },
 
 
@@ -93,8 +64,8 @@ function addMorePhotos(ev) {
                 href: 'images/portfolio/food/food_0103.jpg',
                 src: 'images/portfolio/food/food_0103.jpg',
                 lightbox: 'portraits',
-                title: '.',
-                alt: 'Lucas Lima'
+                title: 'Michel Scherer',
+                alt: 'Portrait of the chef Michel Scherer'
               },
 
               {
@@ -102,7 +73,7 @@ function addMorePhotos(ev) {
                 src: 'images/portfolio/portrait/bruna.jpg',
                 lightbox: 'portraits',
                 title: 'Bruna',
-                alt: 'Lucas Lima'
+                alt: 'Portrait in Firenze'
               },
 
               {
@@ -110,7 +81,7 @@ function addMorePhotos(ev) {
                 src: 'images/portfolio/reportage/tanoaria5_vert.jpg',
                 lightbox: 'portraits',
                 title: 'Port Wine Barrels',
-                alt: 'Lucas Lima'
+                alt: 'Port Wine Barrels workers'
               },
 
               {
@@ -118,7 +89,7 @@ function addMorePhotos(ev) {
                 src: 'images/portfolio/reportage/tanoaria4_vert.jpg',
                 lightbox: 'portraits',
                 title: 'Port Wine Barrels',
-                alt: 'Lucas Lima'
+                alt: 'Port Wine Barrels workers'
               },
 
 
@@ -127,7 +98,7 @@ function addMorePhotos(ev) {
                 src: 'images/portfolio/reportage/drag3_vert.jpg',
                 lightbox: 'portraits',
                 title: 'Girl in Drag',
-                alt: 'Lucas Lima'
+                alt: 'Backstage photo'
               },
 
               {
@@ -135,7 +106,7 @@ function addMorePhotos(ev) {
               src: 'images/portfolio/reportage/drag1_vert.jpg',
               lightbox: 'portraits',
               title: 'Girl in Drag',
-              alt: 'Lucas Lima'
+              alt: 'Backstage photo'
             },
 
 
@@ -145,7 +116,7 @@ function addMorePhotos(ev) {
                 src: 'images/portfolio/35mm/lorrayne.jpg',
                 lightbox: 'portraits',
                 title: 'Lorrayne',
-                alt: 'Lucas Lima'
+                alt: 'Analog photo made with a 35mm camera'
             },
 
             {
@@ -153,15 +124,15 @@ function addMorePhotos(ev) {
                 src: 'images/portfolio/35mm/gio.jpg',
                 lightbox: 'portraits',
                 title: 'Gio',
-                alt: 'Lucas Lima'
+                alt: 'Analog photo made with a 35mm camera'
               },
 
               {
-                href: 'images/portfolio/35mm/pedro.jpg',
-                src: 'images/portfolio/35mm/pedro.jpg',
+                href: 'images/portfolio/35mm/ezye.jpg',
+                src: 'images/portfolio/35mm/ezye.jpg',
                 lightbox: 'portraits',
-                title: 'Pedro Luís',
-                alt: 'Lucas Lima'
+                title: 'Ezyê',
+                alt: 'Analog photo made with a 35mm camera'
               },
 
               {
@@ -169,39 +140,9 @@ function addMorePhotos(ev) {
               src: 'images/portfolio/35mm/ian.jpg',
                 lightbox: 'portraits',
                 title: 'Ian Ramil',
-                alt: 'Lucas Lima'
+                alt: 'Analog photo made with a 35mm camera'
             },
 
-            {
-              href: 'images/portfolio/shows/bono.jpg',
-              src: 'images/portfolio/shows/bono_vert.jpg',
-              lightbox: 'portraits',
-              title: 'U2',
-              alt: 'U2'
-            },
-
-            {
-              href: 'images/portfolio/shows/PJ.jpg',
-              lightbox: 'portraits',
-              title: 'PJ Harvey',
-              alt: 'PJ Harvey'
-            },
-
-            {
-              href: 'images/portfolio/shows/stones.jpg',
-              src: 'images/portfolio/shows/stones_vert.jpg',
-              lightbox: 'portraits',
-              title: 'The Rolling Stones',
-              alt: 'The Rolling Stones'
-            },
-
-            {
-              href: 'images/portfolio/shows/paul.jpg',
-              src: 'images/portfolio/shows/paul_vert.jpg',
-              lightbox: 'portraits',
-              title: 'Paul McCartney',
-              alt: 'Paul McCartney'
-            },
             // Adicione mais objetos conforme necessário
     ];
 
